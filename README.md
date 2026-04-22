@@ -6,19 +6,9 @@ A modern web-based reporting interface built to streamline data accessibility an
 
 ## 🧾 Overview
 
-The Reporting Portal is a centralized platform that empowers stakeholders to generate, manage, and export various types of reports with ease. The system integrates seamlessly with **XERO**, enabling users to create and manage invoices and bills directly through the interface — eliminating the need to switch between multiple tools.
+The Reporting Portal is a centralized platform that empowers stakeholders to generate, manage, and export various types of reports with ease. 
 
 With a role-based access control system, each user is granted permissions tailored to their responsibilities, ensuring data security and accountability across the organization.
-
----
-
-## ✨ Features
-
-- 📁 Generate and download multiple report types
-- 🧾 Create and manage invoices & bills via XERO integration
-- 🔐 Role-based access control for multiple users
-- 📈 Improved data visibility for all stakeholders
-- ⚡ Fast and responsive UI experience
 
 ---
 
