@@ -1,54 +1,85 @@
-# React + TypeScript + Vite
+# 📊 Reporting Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web-based reporting interface built to streamline data accessibility and enhance operational efficiency across teams and departments.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧾 Overview
 
-## Expanding the ESLint configuration
+The Reporting Portal is a centralized platform that empowers stakeholders to generate, manage, and export various types of reports with ease. The system integrates seamlessly with **XERO**, enabling users to create and manage invoices and bills directly through the interface — eliminating the need to switch between multiple tools.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+With a role-based access control system, each user is granted permissions tailored to their responsibilities, ensuring data security and accountability across the organization.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## ✨ Features
+
+- 📁 Generate and download multiple report types
+- 🧾 Create and manage invoices & bills via XERO integration
+- 🔐 Role-based access control for multiple users
+- 📈 Improved data visibility for all stakeholders
+- ⚡ Fast and responsive UI experience
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose                 |
+| ---------- | ----------------------- |
+| React      | UI Framework            |
+| TypeScript | Type-safe development   |
+| Vite       | Build tool & dev server |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js `>= 18.x`
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate to the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📁 Project Structure
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+src/
+├── assets/        # Static assets
+├── components/    # Reusable UI components
+├── pages/         # Application pages/views
+├── redux/         # Redux Store
+├── services/      # APIs
+├── types/         # TypeScript type definitions
+└── utils/         # Helper functions
+```
+
+---
+
+## 🔐 User Roles & Permissions
+
+Access to the portal is managed through a role-based system. Different users will have varying levels of access depending on their assigned role within the organization.
+
+---
+
+## 📄 License
+
+This project is private and intended for internal use only.
