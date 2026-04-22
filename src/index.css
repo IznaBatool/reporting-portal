@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=General+Sans:wght@200;400;600;700&display=swap");
+
+@font-face {
+  font-family: "GeneralSans";
+  src: local("GeneralSans"),
+    url("./fonts/GeneralSans_Complete/Fonts/Variable/GeneralSans-Variable.ttf")
+      format("truetype");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+* {
+  font-family: "GeneralSans", sans-serif;
+  letter-spacing: 0px;
+}
+
+body {
+  font-family: "General Sans", sans-serif;
+  margin: 0;
+}

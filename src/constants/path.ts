@@ -1,0 +1,10 @@
+export const LANDING = '/';
+export const HOME = '/home';
+export const LOGIN = '/login';
+export const SET_PASSWORD = '/set-password';
+export const FORGET_PASSWORD = '/reset-password'
+export const USER_PROFILE = '/user-profile'
+export const DATA_INGESTION = '/data-ingestion/new-integration'
+export const INTEGRATED_DATA_SOURCES = '/data-ingestion/integrated-data-sources'
+export const INTEGRATED_DATA_SOURCE_DETAILS = '/data-ingestion/integrated-data-source-details/:sourceId/*'
+export const WORKSPACE_SETTINGS = '/workspace/:workspaceId/settings' 
